@@ -7,6 +7,6 @@ spec:
     targetPort: web
   to:
     kind: Service
-    name: my-nginxxx
+    name: my-nginx
     weight: 100
   wildcardPolicy: None
